@@ -1,0 +1,2 @@
+CREATE OR REPLACE TABLE `hca-usr-67f-pharmasphere-prod.symedical_imports.mtx_corp_drug_import` AS
+SELECT * FROM `hca-usr-67f-pharmasphere-prod.symedical_imports.mtx_corp_drug_import`
