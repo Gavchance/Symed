@@ -1,2 +1,3 @@
-CREATE OR REPLACE TABLE `hca-usr-67f-pharmasphere-prod.symedical_imports.mtx_corp_drug_import` AS
-SELECT * FROM `hca-usr-67f-pharmasphere-prod.symedical_imports.mtx_corp_drug_import`
+-- code to take the data from QA and push it to 
+CREATE OR REPLACE VIEW `hca-usr-67f-pharmasphere-prod.symedical_imports.mtx_corp_drug_import` AS
+SELECT * FROM `hca-usr-67f-pharmasphere-prod.symedical_imports_qa_.qa__mtx_corp_drug_import`
